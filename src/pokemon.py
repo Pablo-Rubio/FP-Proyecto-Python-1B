@@ -15,7 +15,7 @@ def leer_pokemons(fichero):
         lector = csv.reader(f)
         next(lector)
         for e in lector:
-            res.append(Pokemon(int(e[0]),e[1],e[2],e[3],int(e[4]),int(e[5]),int(e[6]),int(e[7]),int(e[8]),int(e[9]),int(e[10]),e[11],e[12]))
+            res.append(Pokemon(int(e[0]),e[1],e[2],e[3],int(e[4]),int(e[5]),int(e[6]),int(e[7]),int(e[8]),int(e[9]),int(e[10]),e[11],datetime.strptime(e[12], "%d-%m-%y")))
     return res
 
 # Bloque 2:
