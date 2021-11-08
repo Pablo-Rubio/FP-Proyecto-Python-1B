@@ -32,6 +32,7 @@ def conjunto_de_tipos (pokemon):
     res = set()
     for e in pokemon:
         res.add(e.Type_1)
+        res.add(e.Type_2)
     return res
 
 #Bloque 3:
