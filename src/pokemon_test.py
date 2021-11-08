@@ -3,11 +3,7 @@ from pokemon import *
 
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     fichero = "./data/pokemon/pokemon.csv"
-=======
-    fichero = "./FP-Proyecto-Python-1B/data/pokemon/pokemon.csv"
->>>>>>> d9b7dd2beaafe4e30351944e6db349f2cc00c6cb
     pokemon = leer_pokemons(fichero)
 
 
